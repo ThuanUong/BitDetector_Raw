@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Tue May 29 09:59:58 2018
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : bitdetector
+Top-level Entity Name : bitdetector
+Family : Cyclone II
+Device : EP2C70F896C6
+Power Models : Final
+Total Thermal Power Dissipation : 218.82 mW
+Core Dynamic Thermal Power Dissipation : 3.35 mW
+Core Static Thermal Power Dissipation : 155.04 mW
+I/O Thermal Power Dissipation : 60.43 mW
+Power Estimation Confidence : Medium: user provided moderately complete toggle rate data

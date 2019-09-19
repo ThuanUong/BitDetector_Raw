@@ -1,0 +1,38 @@
+|bitdetector
+clk => o_sop~reg0.CLK
+clk => o_eop~reg0.CLK
+clk => o_valid~reg0.CLK
+clk => outp~reg0.CLK
+clk => i_ready~reg0.CLK
+clk => inp_pre.CLK
+clk => state~1.DATAIN
+reset_n => i_ready.OUTPUTSELECT
+reset_n => state.OUTPUTSELECT
+reset_n => state.OUTPUTSELECT
+reset_n => state.OUTPUTSELECT
+reset_n => inp_pre.ENA
+o_ready => Selector0.IN2
+o_ready => i_ready.DATAB
+o_ready => o_valid.OUTPUTSELECT
+o_ready => o_valid.OUTPUTSELECT
+o_ready => outp.OUTPUTSELECT
+o_ready => nextstate.S0.DATAB
+i_valid => o_valid.DATAA
+i_valid => o_valid.DATAB
+i_valid => always2.IN1
+i_sop => always1.IN1
+i_sop => always1.IN1
+i_sop => o_sop.DATAA
+i_eop => always1.IN1
+i_eop => o_eop.DATAA
+i_eop => always1.IN1
+inp => always2.IN1
+inp => outp.DATAA
+inp => inp_pre.DATAIN
+i_ready <= i_ready~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_valid <= o_valid~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sop <= o_sop~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_eop <= o_eop~reg0.DB_MAX_OUTPUT_PORT_TYPE
+outp <= outp~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

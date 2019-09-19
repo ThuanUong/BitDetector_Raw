@@ -1,0 +1,61 @@
+module bitdetector(clk, reset_n
+						 o_ready, i_valid, i_sop, i_eop, inp
+						 i_ready, o_valid, o_sop, o_eop, outp);
+input clk, reset_n;
+input logic o_ready, i_valid, i_sop, i_eop, inp;
+output logic i_ready, o_valid, o_sop, o_eop, outp;
+
+enum int unsigned {S0 = 0, S1 = 1} state, nextstate;
+logic i_sop_pre, inp_pre;
+always @ (posedge clk) begin
+	if(~reset_n)
+		state <= S0;
+	else 
+		state <= nextstate;
+		i_sop_pre <= i_sop;
+		i_valid <= o_valid;
+		
+end 
+
+always_comb begin 
+	case (state)
+		S0:	begin
+					if (i_ready)
+						nextstate <= S1;
+					else 
+						nextstate <= S0;
+				end 
+		S1:	begin 
+					
+						nextstate <= S1;
+				end 
+	default: nextstate <= S0;
+	endcase
+end
+
+always @ (*) begin
+	o_valid <= 0;
+	o_sop   <= 0;
+	o_eop   <= 0;
+	outp    <= 0;
+		case (state)
+			S0:	begin
+						o_valid <= 0;
+						o_sop   <= 0;
+						o_eop   <= 0;
+						outp    <= 0;	
+					end 
+			S1:	begin 
+						if(~i_sop && i_sop != i_sop_pre && inp == inp_pre)
+							outp <= inp_pre;
+						
+					end 
+		default: begin 
+						o_valid <= 0;
+						o_sop   <= 0;
+						o_eop   <= 0;
+						outp    <= 0;	
+					end 
+		endcase 
+endmodule 
+ 

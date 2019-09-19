@@ -1,0 +1,71 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vbitdetector
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 I:S::K_[NF<c>KflAEmRBm2
+Z3 VV619>X6X=cLSJ]UA@gREO2
+Z4 !s105 bitdetector_sv_unit
+S1
+Z5 dC:\Users\Thuan Uong\Desktop\Week7\bitdetector
+Z6 w1527561904
+Z7 8C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector.sv
+Z8 FC:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector.sv
+L0 1
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector.sv|
+Z11 o-work work -sv -O0
+Z12 !s100 oPYnjd5zH?^mMR5zm_WAJ3
+Z13 !s108 1527592814.475000
+Z14 !s107 C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vbitdetector_tb
+R1
+Z15 !s100 6g2I;V8cKHM7HIl_>;Jeb3
+Z16 I47056_3mOhn:jlH:[ea332
+Z17 VN9XgB6ZGnCI9Q^n<HaS;O3
+Z18 !s105 bitdetector_tb_sv_unit
+S1
+R5
+Z19 w1526101406
+Z20 8C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv
+Z21 FC:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv
+L0 3
+R9
+r1
+31
+Z22 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv|
+R11
+!i10b 1
+!s85 0
+Z23 !s108 1527592814.580000
+Z24 !s107 C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv|
+!s101 -O0
+vtestbit
+R1
+!i10b 1
+Z25 !s100 Ag?7fG6TJmbFP0QQ;5mBf3
+Z26 IebiX:=m4mC_iZZi_;N<oi1
+Z27 VTmG9Q8kR@emd6U]3]N?Cl0
+Z28 !s105 testbit_sv_unit
+S1
+R5
+Z29 w1527504831
+Z30 8C:/Users/Thuan Uong/Desktop/Week7/bitdetector/testbit.sv
+Z31 FC:/Users/Thuan Uong/Desktop/Week7/bitdetector/testbit.sv
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1527592814.685000
+!s107 C:/Users/Thuan Uong/Desktop/Week7/bitdetector/testbit.sv|
+Z32 !s90 -reportprogress|300|-work|work|-sv|C:/Users/Thuan Uong/Desktop/Week7/bitdetector/testbit.sv|
+!s101 -O0
+R11

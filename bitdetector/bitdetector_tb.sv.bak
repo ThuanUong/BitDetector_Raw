@@ -1,0 +1,34 @@
+module bitdetector_tb;
+reg inp, o_ready, i_sop, clk, reset_n;
+wire i_ready, outp;
+
+bitdetector dut(.clk(clk),.reset_n(reset_n),
+					 .o_ready(o_ready),.i_sop(i_sop),.inp(inp),
+					 .i_ready(i_ready),.outp(outp));
+					 
+always #2.5 clk = ~clk;
+
+initial begin
+	clk = 1;
+	reset_n = 0;
+	o_ready = 0;
+	inp = 0;
+	i_sop = 0;
+end 
+always @ (*) begin 
+	#5; 
+	reset_n = 1;
+	#5;
+	inp = 1;
+	i_sop = 1;
+	#5;
+	i_sop = 0;
+	#15;
+	inp = 0;
+	#10;
+	inp = 1;
+	#5;
+	inp = 1;
+	#10;
+	reset_n = 0;
+end

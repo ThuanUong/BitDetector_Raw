@@ -1,0 +1,18 @@
+//Instantiate four instances of 1bit full adder to form 4-bit full adder
+
+module FA_4bit(a,b,ci,s,co);
+
+	input [3:0] a,b,ci;  //inputs
+	output[3:0] s;  //outputs
+	output co;
+	
+	  // wires connecting modules
+	 wire w1, w2, w3;
+	
+	FA inst1 (.a(a[0]),.b(b[0]), .ci(ci[0]), .s(s[0]), .co(w1));
+	FA inst2 (.a(a[1]),.b(b[1]), .ci(w1), .s(s[1]), .co(w2));
+	FA inst3 (.a(a[2]),.b(b[2]), .ci(w2), .s(s[2]), .co(w3));
+	FA inst4 (.a(a[3]),.b(b[3]), .ci(w3), .s(s[3]), .co(co));
+	
+endmodule
+

@@ -1,0 +1,10 @@
+=======================DVE Context and Call Stack=========================
+Command line: /apps/synopsys/vcs-mx/N-2017.12/gui/dve/linux64/bin/dve.exe -full64 -ucliplatform=linux64 -toolargs "-ucligui -toolexe bitdetector.simv -V  -pid 5095" -toolin /tmp/vcs_20180529113405_5094_thuan..stdin -toolout /tmp/vcs_20180529113405_5094_thuan..stdout
+
+--- Stack trace follows:
+
+Received Signal 1 from: PID=3652 (UID=501)
+
+
+Process terminated by hangup.
+

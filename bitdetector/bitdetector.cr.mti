@@ -1,0 +1,22 @@
+{C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector.sv} {1 {vlog -work work -sv {C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module bitdetector
+
+Top level modules:
+	bitdetector
+
+} {} {}} {C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv} {1 {vlog -work work -sv {C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module bitdetector_tb
+
+Top level modules:
+	bitdetector_tb
+
+} {} {}} {C:/Users/Thuan Uong/Desktop/Week7/bitdetector/testbit.sv} {1 {vlog -work work -sv {C:/Users/Thuan Uong/Desktop/Week7/bitdetector/testbit.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module testbit
+
+Top level modules:
+	testbit
+
+} {} {}}

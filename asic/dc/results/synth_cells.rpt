@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : cell
+Design : bitdetector_1
+Version: N-2017.09-SP2
+Date   : Wed May 30 10:31:56 2018
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U27                       NAND3X0         saed90nm_typ_ht 7.372800  
+U28                       OA221X1         saed90nm_typ_ht 12.902400 
+U29                       NOR2X0          saed90nm_typ_ht 5.529600  
+U30                       NOR2X0          saed90nm_typ_ht 5.529600  
+U31                       OA221X1         saed90nm_typ_ht 12.902400 
+U32                       INVX0           saed90nm_typ_ht 5.529600  
+U33                       OA22X1          saed90nm_typ_ht 11.059200 
+U34                       INVX0           saed90nm_typ_ht 5.529600  
+U35                       NOR2X0          saed90nm_typ_ht 5.529600  
+U36                       AO21X1          saed90nm_typ_ht 10.137600 
+U37                       AND2X1          saed90nm_typ_ht 7.372800  
+U38                       AND3X1          saed90nm_typ_ht 8.294400  
+U39                       NAND4X0         saed90nm_typ_ht 8.294400  
+U40                       NOR3X0          saed90nm_typ_ht 8.294400  
+U41                       NAND2X0         saed90nm_typ_ht 5.529600  
+U42                       AND3X1          saed90nm_typ_ht 8.294400  
+U43                       AND2X1          saed90nm_typ_ht 7.372800  
+U44                       MUX21X1         saed90nm_typ_ht 11.059200 
+i_ready_reg               DFFX1           saed90nm_typ_ht 24.883200 n
+inp_pre_reg               DFFX1           saed90nm_typ_ht 24.883200 n
+o_eop_reg                 DFFX1           saed90nm_typ_ht 24.883200 n
+o_sop_reg                 DFFX1           saed90nm_typ_ht 24.883200 n
+o_valid_reg               DFFX1           saed90nm_typ_ht 24.883200 n
+outp_reg                  DFFX1           saed90nm_typ_ht 24.883200 n
+state_reg[0]              DFFX1           saed90nm_typ_ht 24.883200 n
+state_reg[1]              DFFX1           saed90nm_typ_ht 24.883200 n
+--------------------------------------------------------------------------------
+Total 26 cells                                            345.599999
+1

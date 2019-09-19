@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : bitdetector_1
+Version: N-2017.09-SP2
+Date   : Wed May 30 10:31:56 2018
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/thuan/Assignment2_s3574935/asic/dc/ref/models/saed90nm_typ_ht.db)
+
+Number of ports:                           12
+Number of nets:                            37
+Number of cells:                           27
+Number of combinational cells:             18
+Number of sequential cells:                 9
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                      13
+
+Combinational area:                146.534402
+Buf/Inv area:                       11.059200
+Noncombinational area:             199.065598
+Macro/Black Box area:                0.000000
+Net Interconnect area:              11.893403
+
+Total cell area:                   345.599999
+Total area:                        357.493402
+1

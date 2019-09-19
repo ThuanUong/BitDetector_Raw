@@ -1,0 +1,123 @@
+0 
+35
++itf+/apps/synopsys/vcs-mx/N-2017.12/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/apps/synopsys/vcs-mx/N-2017.12/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/libvirsim.so /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/liberrorinf.so /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/libsnpsmalloc.so /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/libvfs.so
+-Mout=bitdetector.simv
+-Msaverestoreobj=/apps/synopsys/vcs-mx/N-2017.12/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/apps/synopsys/vcs-mx/N-2017.12/include
+-V
+-Xpiyushb1=0x80
+-Xvcs_run_simv=1
+-debug_access+all+bc
+-debug_region+cell
+-full64
+-gen_obj
+-gui
+-o bitdetector.simv
+-picarchive
+-sverilog
+-ucli
+/apps/synopsys/vcs-mx/N-2017.12/linux64/bin/vcs1
+bitdetector.sv
+bitdetector_tb.sv
+73
+sysc_uni_pwd=/home/thuan/Assignment2_s3574935/asic/vcs
+XNLSPATH=/apps/synopsys/icvalidator/N-2017.12-2/lib-u/X11/nls
+XMODIFIERS=@im=none
+XKEYSYMDB=/apps/synopsys/icvalidator/N-2017.12-2/lib-u/X11/XKeysymDB
+XDG_SESSION_COOKIE=0f9faaac08d5e5c92213126400000030-1527593163.317814-1662808419
+XAUTHORITY=/var/run/gdm/auth-for-thuan-2Qkn7J/database
+XAPPLRESDIR=/apps/synopsys/icvalidator/N-2017.12-2/app-defaults
+WV_HOME=/apps/synopsys/wv/N-2017.12
+WINDOWPATH=1
+VMR_MODE_FLAG=64
+VG_GNU_PACKAGE=/apps/synopsys/vcs-mx/N-2017.12/gnu/linux
+VENDOR=unknown
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/apps/synopsys/vcs-mx/N-2017.12
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=thuan
+UNAME=/bin/uname
+TOOL_HOME=/apps/synopsys/vcs-mx/N-2017.12/linux64
+TMAX_HOME=/apps/synopsys/txs/N-2017.09-SP2/
+SYNOPSYS_SYSTYPE=LINUX64_L26el
+SYNOPSYS=/apps/synopsys
+STARRC_HOME=/apps/synopsys/starrc/M-2017.06-SP3-1
+SSH_AUTH_SOCK=/tmp/keyring-dPYDPh/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VCS_CLANG_PATH=/fs/src/interfaces/LLVM_Project/QSCM/opt/llvm-3.9.1/linux64
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/3280,unix/unix:/tmp/.ICE-unix/3280
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SAMPLE_LIBS=/apps/synopsys/customcompiler/N-2017.12/auxx
+SAED_PDK_90=/apps/synopsys/SAED_PDK90nm
+SAED90_PDK=/apps/synopsys/SAED_PDK90nm
+SAED32_EDK=/apps/synopsys/SAED32_EDK/src/oa/
+SAED32_28_PDK=/apps/synopsys/SAED_PDK32nm
+QT_IM_MODULE=xim
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PT_HOME=/apps/synopsys/pts/N-2017.12
+OVA_UUM=0
+OSTYPE=linux
+ORBIT_SOCKETDIR=/tmp/orbit-thuan
+NT_HOME=/apps/synopsys/nt/N-2017.12
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+IDQ_HOME=/apps/synopsys/idq/N-2017.09-SP2
+ICV_HOME_DIR=/apps/synopsys/icvalidator/N-2017.12-2
+ICC_HOME=/apps/synopsys/icc/N-2017.09-SP2
+HSPICE_HOME=/apps/synopsys/hspice/N-2017.12
+HOSTTYPE=x86_64-linux
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/thuan/.gtkrc-1.2-gnome2
+GROUP=thuan
+GNOME_KEYRING_SOCKET=/tmp/keyring-dPYDPh/socket
+GNOME_KEYRING_PID=3148
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GIO_LAUNCHED_DESKTOP_FILE_PID=3648
+GIO_LAUNCHED_DESKTOP_FILE=/home/thuan/Desktop/gnome-terminal.desktop
+GDM_LANG=en_US.UTF-8
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+DESKTOP_SESSION=gnome
+DC_HOME=/apps/synopsys/syn/N-2017.09-SP2
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-swepNs8cXY,guid=2164e7ddd4eb23c3f0a81d8200000043
+CVS_RSH=ssh
+CS_HOME=/apps/synopsys/xa/N-2017.12
+COLORTERM=gnome-terminal
+CC_HOME=/apps/synopsys/customcompiler/N-2017.12
+BASE_LIB=/apps/synopsys/customcompiler/N-2017.12/auxx/samples
+0
+3
+1527562964 bitdetector.sv
+1527212473 bitdetector_tb.sv
+1510893143 /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/vcsdp.tab
+5
+0 
+1510894036 /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/libvirsim.so
+1510893223 /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/liberrorinf.so
+1510893206 /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/libsnpsmalloc.so
+1510893451 /apps/synopsys/vcs-mx/N-2017.12/linux64/lib/libvfs.so
+1527593627 bitdetector.simv.daidir

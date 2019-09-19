@@ -1,0 +1,120 @@
+{
+    "Modules": {
+        "...MASTER...": {
+            "start_perf": [
+                3.1607279777526855,
+                0.43293399999999999,
+                0.47892699999999999,
+                221736,
+                235128,
+                1527593238.7136431
+            ],
+            "nQuads": 0,
+            "end_perf": [
+                3.1972379684448242,
+                0.44193199999999999,
+                0.489925,
+                223156,
+                235128
+            ],
+            "nMops": 0
+        },
+        "std": {
+            "start_perf": [
+                3.1974568367004395,
+                0.44193199999999999,
+                0.489925,
+                223156,
+                235128,
+                1527593238.7503719
+            ],
+            "Compiled": "Yes",
+            "nQuads": 218,
+            "end_perf": [
+                3.2214949131011963,
+                0.45393,
+                0.49392399999999997,
+                223172,
+                235128
+            ],
+            "Compiled Times": 36,
+            "nMops": 528
+        },
+        "bitdetector_tb": {
+            "start_perf": [
+                3.2215719223022461,
+                0.45393,
+                0.49392399999999997,
+                223172,
+                235128,
+                1527593238.774487
+            ],
+            "Compiled": "Yes",
+            "nQuads": 1278,
+            "end_perf": [
+                3.2783758640289307,
+                0.47492699999999999,
+                0.52492000000000005,
+                227624,
+                235128
+            ],
+            "Compiled Times": 7,
+            "nMops": 2142
+        }
+    },
+    "CompUnits": {
+        "qdaua_d": {
+            "mod": "bitdetector_tb",
+            "bytes": 69873,
+            "out": "qdaua_d.o",
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.35/_4055_archive_1.a"
+        }
+    },
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.35/_4055_archive_1.a",
+            "objects": [
+                [
+                    "qdaua_d.o",
+                    69873
+                ],
+                [
+                    "amcQwB.o",
+                    99916
+                ]
+            ],
+            "size": 169789
+        }
+    ],
+    "stat": {
+        "peak_mem_kb": 235128,
+        "ru_self_end": {
+            "ru_utime_sec": 0.47892699999999999,
+            "ru_majflt": 981,
+            "ru_stime_sec": 0.533918,
+            "ru_maxrss_kb": 76412,
+            "ru_minflt": 25220,
+            "ru_nvcsw": 1091,
+            "ru_nivcsw": 45
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.015997000000000001,
+            "ru_majflt": 57,
+            "ru_stime_sec": 0.10198400000000001,
+            "ru_maxrss_kb": 22292,
+            "ru_minflt": 8574,
+            "ru_nvcsw": 94,
+            "ru_nivcsw": 33
+        }
+    }
+}

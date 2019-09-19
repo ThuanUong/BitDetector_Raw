@@ -1,0 +1,4 @@
+set search_path ../ref/models
+set link_library   saed90nm_typ_ht.db
+set target_library  saed90nm_typ_ht.db
+

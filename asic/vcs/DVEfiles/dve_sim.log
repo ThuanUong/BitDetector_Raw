@@ -1,0 +1,35 @@
+18:34:09    16 -->                                                             [tcl] ucliGUI::connect -toolargs -ucligui -toolexe bitdetector.simv -V -pid 5095 -toolin /tmp/vcs_20180529113405_5094_thuan..stdin -toolout /tmp/vcs_20180529113405_5094_thuan..stdout  
+18:34:09    17 -->                                                                 [tcl] set ucliGUI::state
+18:34:09    18 -->                                                                     [tcl] gui_update_simulator_buttons
+18:34:10    19 -->                                                                         [tcl] set ucliGUI::state
+18:34:10    20 -->                                                                             [tcl] ucliCore::getToolPID
+18:34:10    21 -->                                                                                 [tcl] synopsys::env hasTB
+18:34:10    22 -->                                                                                     [tcl] trigger_hier_stack_context_switch 0
+18:34:10    23 -->                                                                                         [tcl] synUtils::setDVEInitPhase 1
+18:34:10    24 -->                                                                                             [tcl] gui_get_env SIMSETUP::SIMVPD
+18:34:10    25 --> ...  [tcl] synopsys::dump -type VPD -file /home/thuan/Assignment2_s3574935/asic/vcs/inter.vpd -locking
+18:34:10    26 --> ...      [tcl] synopsys::dump -autoflush on -fid VPD0
+18:34:10    27 --> ...          [tcl] set ::dve_fid VPD0
+18:34:10    28 --> ...              [tcl] synUtils::setDVEInitPhase 0
+18:34:10    29 --> ...                  [tcl] ucliCore::getToolPID
+18:34:10    30 --> ...                      [tcl] synUtils::sendTool -active _icl_setToolSocket /tmp/smlnpS1Cv3D
+18:34:10    31 --> ...                          [tcl] synUtils::sendTool -active {_icl_start_rpc -version "N-2017.12_Full64" -sync_file /tmp/vcs_dve_rpc.thuan.5095}
+18:34:10    32 --> ...                              [tcl] synUtils::sendTool -active {_icl_createSharedMemory /tmp/vcs_dve_general.thuan.5095}
+18:34:10    33 --> ...                                  [tcl] dveMisc::vbusExpand bitdetector_tb
+18:34:10    34 --> ...                                      [tcl] config endofsim noexit
+18:34:10    35 --> ...                                          [tcl] config onfail enable all
+18:34:10    36 --> ...                                              [tcl] config syscaddplainmembers
+18:34:10    37 --> ...                                                  [tcl] config syscaddsourcenames
+18:34:10    38 --> ...                                                      [tcl] config syscaddstructtypes
+18:34:10    39 --> ...                                                          [tcl] synopsys::listing -disable
+18:35:08    40 --> ...                                                              [tcl] dveMisc::vbusExpand bitdetector_tb.dut
+18:35:10    41 --> ...                                                                  [tcl] synopsys::dump -add {bitdetector_tb.dut} -scope "." -depth 1 -fid VPD0
+18:36:12    42 --> ...                                                                      [tcl] synopsys::run
+18:36:12    43 --> ...                                                                          [tcl] set ucliGUI::state
+18:36:12    44 --> ...                                                                              [tcl] gui_update_simulator_buttons
+18:36:12    45 --> ...                                                                                  [tcl] set ucliGUI::state
+18:36:12    46 --> ...                                                                                      [tcl] set ucliGUI::state
+18:36:12    47 --> ...                                                                                          [tcl] set ucliGUI::state
+18:36:12    48 --> ...                                                                                              [tcl] catch {senv activeDomain} dveMisc::result 
+18:36:12    49 --> ...                                                                                                  [tcl] set dveMisc::result
+18:36:12    50 --> ...  [tcl] gui_update_simulator_buttons

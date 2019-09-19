@@ -1,0 +1,20 @@
+module FA4_clk(a,b,ci,s,co,clk);
+
+	input [3:0] a,b,ci;  //inputs
+	input clk;		//clock signal
+	output[3:0] s;  //outputs
+	output co;		//carry out
+	
+	wire[3:0] wire1,wire2, wire4;
+	wire wire3,wire5;
+	
+	//Instantiate instances
+	d_ff4 inst1(.d(a),.clk(clk),.q(wire1));
+	d_ff4 inst2(.d(b),.clk(clk),.q(wire2));
+	d_ff4 inst3(.d(ci),.clk(clk),.q(wire3)); 	
+	FA_4bit inst4 (.a(wire1),.b(wire2), .ci(wire3), .s(wire4), .co(wire5));
+	d_ff4 inst5(.d(wire4),.clk(clk),.q(s));
+	d_ff  inst6(.d(wire5),.clk(clk),.q(co)); 	
+
+endmodule
+

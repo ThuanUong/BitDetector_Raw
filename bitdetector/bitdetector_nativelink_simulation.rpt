@@ -1,0 +1,130 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  bitdetector.vo
+Sim SDF file          :  bitdetector__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File bitdetector_run_msim_gate_verilog.do already exists - backing up current file as bitdetector_run_msim_gate_verilog.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do bitdetector_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {bitdetector.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module bitdetector
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	bitdetector
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -sv -work work +incdir+C:/Users/Thuan\ Uong/Desktop/Week7/bitdetector {C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module bitdetector_tb
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	bitdetector_tb
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  bitdetector_tb
+ModelSim-Altera Info: # vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps bitdetector_tb 
+ModelSim-Altera Info: # Loading sv_std.std
+ModelSim-Altera Info: # Loading work.bitdetector_tb
+ModelSim-Altera Info: # Loading work.bitdetector
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_ff
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # source bitdetector_dump_all_vcd_nodes.tcl
+ModelSim-Altera Info: # 0
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           File in use by: Thuan Uong  Hostname: TTTTTT  ProcessID: 15600
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Attempting to use alternate WLF file "./wlftjd0bik".
+ModelSim-Altera Warning: # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #           Using alternate file: ./wlftjd0bik
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: #                    3ns Error: input and output does not match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	x		i_ready:	x		o_valid:	x		o_sop: x	o_eop: x
+ModelSim-Altera Info: #                    8ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   13ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   18ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   23ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 1	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 1	o_eop: 0
+ModelSim-Altera Info: #                   28ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   33ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   38ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   43ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   48ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   53ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   58ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   63ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 1
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 1
+ModelSim-Altera Info: #                   68ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: #                   73ns Match: input and output match
+ModelSim-Altera Info: # Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+ModelSim-Altera Info: # ** Note: $finish    : C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv(72)
+ModelSim-Altera Info: #    Time: 72500 ps  Iteration: 1  Instance: /bitdetector_tb
+ModelSim-Altera Info: # 1
+ModelSim-Altera Info: # Break in Module bitdetector_tb at C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv line 72
+ModelSim-Altera Info: # Simulation Breakpoint: 1
+ModelSim-Altera Info: # Break in Module bitdetector_tb at C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv line 72
+ModelSim-Altera Info: # MACRO ./bitdetector_run_msim_gate_verilog.do PAUSED at line 18
+Info: NativeLink simulation flow was successful

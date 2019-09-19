@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : bitdetector
+Version: N-2017.09-SP2
+Date   : Sat May 12 17:22:30 2018
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ_ht (File: /home/thuan/assignment2/asic/icc/ref/models/saed90nm_typ_ht.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ_ht
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+bitdetector            ForQA             saed90nm_typ_ht
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 905.9002 nW   (72%)
+  Net Switching Power  = 357.8509 nW   (28%)
+                         ---------
+Total Dynamic Power    =   1.2638 uW  (100%)
+
+Cell Leakage Power     =   5.7105 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register           0.4385            0.1138        3.3825e+06            3.9348  (  56.42%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.4674            0.2441        2.3280e+06            3.0395  (  43.58%)
+--------------------------------------------------------------------------------------------------
+Total              0.9059 uW         0.3579 uW     5.7105e+06 pW         6.9743 uW
+1

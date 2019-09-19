@@ -1,0 +1,108 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do bitdetector_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {bitdetector.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bitdetector
+# 
+# Top level modules:
+# 	bitdetector
+# 
+# vlog -sv -work work +incdir+C:/Users/Thuan\ Uong/Desktop/Week7/bitdetector {C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bitdetector_tb
+# 
+# Top level modules:
+# 	bitdetector_tb
+# 
+# vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  bitdetector_tb
+# vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps bitdetector_tb 
+# Loading sv_std.std
+# Loading work.bitdetector_tb
+# Loading work.bitdetector
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# 
+# source bitdetector_dump_all_vcd_nodes.tcl
+# 0
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Thuan Uong  Hostname: TTTTTT  ProcessID: 15600
+# 
+#           Attempting to use alternate WLF file "./wlftjd0bik".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftjd0bik
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    3ns Error: input and output does not match
+# Got:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+# Exp:	outp:	x		i_ready:	x		o_valid:	x		o_sop: x	o_eop: x
+#                    8ns Match: input and output match
+# Got:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+#                   13ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+#                   18ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+#                   23ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 1	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 1	o_eop: 0
+#                   28ns Match: input and output match
+# Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+# Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+#                   33ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+#                   38ns Match: input and output match
+# Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+# Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+#                   43ns Match: input and output match
+# Got:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+#                   48ns Match: input and output match
+# Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+# Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+#                   53ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+#                   58ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+#                   63ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 1
+# Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 1
+#                   68ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+#                   73ns Match: input and output match
+# Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+# Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+# ** Note: $finish    : C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv(72)
+#    Time: 72500 ps  Iteration: 1  Instance: /bitdetector_tb
+# 1
+# Break in Module bitdetector_tb at C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv line 72
+# Simulation Breakpoint: 1
+# Break in Module bitdetector_tb at C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv line 72
+# MACRO ./bitdetector_run_msim_gate_verilog.do PAUSED at line 18

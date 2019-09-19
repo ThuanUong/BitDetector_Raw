@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Thuan Uong\Desktop\Week7\bitdetector\simulation\modelsim
+vbitdetector
+Idk9iTlRWfNl`5ZCOM=gKj3
+VV619>X6X=cLSJ]UA@gREO2
+Z1 dC:\Users\Thuan Uong\Desktop\Week7\bitdetector\simulation\modelsim
+w1527562650
+8bitdetector.vo
+Fbitdetector.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 _5LdX:m?_WYlz1AB8ZX5k2
+!s85 0
+!s108 1527562669.373000
+!s107 bitdetector.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|bitdetector.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vbitdetector_tb
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 6g2I;V8cKHM7HIl_>;Jeb3
+IO42n_YJGZ4FmJzm4zoW@U0
+VN9XgB6ZGnCI9Q^n<HaS;O3
+!s105 bitdetector_tb_sv_unit
+S1
+R1
+w1526101406
+8C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv
+FC:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1527562669.542000
+!s107 C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Thuan Uong/Desktop/Week7/bitdetector|C:/Users/Thuan Uong/Desktop/Week7/bitdetector/bitdetector_tb.sv|
+!s101 -O0
+o-sv -work work -O0
+!s92 -sv -work work {+incdir+C:/Users/Thuan Uong/Desktop/Week7/bitdetector} -O0

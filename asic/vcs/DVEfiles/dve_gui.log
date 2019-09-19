@@ -1,0 +1,49 @@
+Chronologic VCS simulator copyright 1991-2017
+Contains Synopsys proprietary information.
+Compiler version N-2017.12_Full64; Runtime version N-2017.12_Full64;  May 29 18:34 2018
+VCS Build Date = Nov 16 2017 20:40:49
+Start run at May 29 18:34 2018
+VCD+ Writer N-2017.12_Full64 Copyright (c) 1991-2017 by Synopsys Inc.
+The file '/home/thuan/Assignment2_s3574935/asic/vcs/inter.vpd' was opened successfully.
+                   3ns Match: input and output match
+Got:	outp:	x		i_ready:	x		o_valid:	x		o_sop: x	o_eop: x
+Exp:	outp:	x		i_ready:	x		o_valid:	x		o_sop: x	o_eop: x
+                   8ns Match: input and output match
+Got:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+Exp:	outp:	0		i_ready:	0		o_valid:	0		o_sop: 0	o_eop: 0
+                  13ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+                  18ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+                  23ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 1	o_eop: 0
+Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 1	o_eop: 0
+                  28ns Match: input and output match
+Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+                  33ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+                  38ns Match: input and output match
+Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+                  43ns Match: input and output match
+Got:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+Exp:	outp:	1		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+                  48ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+                  53ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 0
+                  58ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 1
+Exp:	outp:	0		i_ready:	1		o_valid:	1		o_sop: 0	o_eop: 1
+                  63ns Match: input and output match
+Got:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+Exp:	outp:	0		i_ready:	1		o_valid:	0		o_sop: 0	o_eop: 0
+$finish called from file "bitdetector_tb.sv", line 73.
+$finish at simulation time                67500
+Simulation complete, time is 67500 ps.

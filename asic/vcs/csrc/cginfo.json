@@ -1,0 +1,132 @@
+{
+    "MlibObjs": {},
+    "CompileProcesses": [
+        "cgproc.4055.json"
+    ],
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module",
+            1
+        ],
+        "bitdetector_tb": [
+            "bitdetector_tb",
+            "qdaua",
+            "module",
+            2
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module",
+            3
+        ]
+    },
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "bytes": 99916,
+        "out": "amcQwB.o",
+        "archive": "archive.35/_4055_archive_1.a"
+    },
+    "PrevCompiledModules": {
+        "std": {
+            "reYIK_d": {
+                "out": "reYIK_d.o",
+                "bytes": 41354,
+                "mod": "std",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.35/_prev_archive_1.a"
+            }
+        },
+        "bitdetector_tb": {
+            "qdaua_d": {
+                "out": "qdaua_d.o",
+                "bytes": 69865,
+                "mod": "bitdetector_tb",
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.35/_4055_archive_1.a"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "out": "objs/amcQw_d.o",
+                "bytes": 7758,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "checksum": 0
+            }
+        }
+    },
+    "CompileStrategy": "fullobj",
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/home/thuan/Assignment2_s3574935/asic/vcs",
+        "csrc_abs": "/home/thuan/Assignment2_s3574935/asic/vcs/csrc",
+        "daidir": "/home/thuan/Assignment2_s3574935/asic/vcs/bitdetector.simv.daidir",
+        "daidir_abs": "/home/thuan/Assignment2_s3574935/asic/vcs/bitdetector.simv.daidir",
+        "archive_dir": "archive.35",
+        "default_output_dir": "csrc"
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.43193399999999998,
+            "ru_majflt": 935,
+            "ru_stime_sec": 0.47892699999999999,
+            "ru_maxrss_kb": 69744,
+            "ru_minflt": 22493,
+            "ru_nvcsw": 1030,
+            "ru_nivcsw": 40
+        },
+        "CodeGen(%)": 9.8121425603484482,
+        "quadSpeed": 31834.528546804839,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.015997000000000001,
+            "ru_majflt": 57,
+            "ru_stime_sec": 0.096985000000000002,
+            "ru_maxrss_kb": 21924,
+            "ru_minflt": 8038,
+            "ru_nvcsw": 93,
+            "ru_nivcsw": 31
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.015997000000000001,
+            "ru_majflt": 57,
+            "ru_stime_sec": 0.10198400000000001,
+            "ru_maxrss_kb": 22292,
+            "ru_minflt": 8574,
+            "ru_nvcsw": 94,
+            "ru_nivcsw": 33
+        },
+        "nMops": 2670,
+        "mopSpeed": 56816.972740620935,
+        "nQuads": 1496,
+        "totalObjSize": 169789,
+        "peak_mem_kb": 235128,
+        "Frontend(%)": 90.187857439651552,
+        "ru_self_end": {
+            "ru_utime_sec": 0.47892699999999999,
+            "ru_majflt": 981,
+            "ru_stime_sec": 0.533918,
+            "ru_maxrss_kb": 76412,
+            "ru_minflt": 25223,
+            "ru_nvcsw": 1091,
+            "ru_nivcsw": 46
+        },
+        "mop/quad": 1.78475935828877,
+        "outputSizePerQuad": 113.49532085561498
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "bitdetector_tb",
+        "bitdetector_tb"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStatus": "Successful",
+    "PEModules": []
+}

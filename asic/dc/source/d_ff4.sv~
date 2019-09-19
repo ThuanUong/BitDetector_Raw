@@ -1,0 +1,13 @@
+//rising edge-trigger 4-bit DFF 
+
+module d_ff4(d,clk,q);
+	input [3:0] d;
+	input clk;
+	output reg [3:0] q;
+	
+// to create a 1-bit rising edge-trigger register
+	always_ff @(posedge clk)
+		q <= d;
+
+endmodule
+
